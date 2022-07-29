@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+    <title>Fortune 30</title>
     <script src='https://d3js.org/d3.v7.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
     <link rel="stylesheet" href="style.css">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="div1">
         <h1 style="text-align:center;">Fotune Top 30 Companies Performance Comparison in Year 2020</h1>
         <p>In 2020 Covid-19 hit the world, econmy slowed down, companies preformed quite different. 
             Financial market droped sharply and quickly recovered, retailing companies had good growth since people are in demand of daily supplies.
@@ -20,7 +17,7 @@
             companies can be obtained by interacting with the chart.
         </p>
     </div>
-    <div class="controls" style="margin:0 200px;">
+    <div id="div2" class="controls">
         <button id="revenue" onclick="update('revenue')">Revenue</button>
         <button id="Market_Cap" onclick="update('Market_Cap')">Market Cap</button>
         <button id="profit" onclick="update('profit')">Profit</button>
@@ -29,7 +26,7 @@
     <div id="FortuneViz">
     <!-- <svg width="1600" height="800"></svg>    -->
     </div>
-    <script src="fortune.js"></script>
+    <script src="fortune30.js"></script>
     
     
 </body>
