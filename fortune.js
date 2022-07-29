@@ -100,7 +100,7 @@ const legend = g.selectAll()
 //function update bar based on selected variable
 function update(selectedVar) {
     //load csv
-    const data = d3.csv("fortune_30-2020.csv").then( function(data) { 
+    const data = d3.csv("https://github.com/renkun007/renkun007.github.io/blob/main/Fortune_30-2020.csv").then( function(data) { 
     data.forEach(d => {
         d.revenue = +d.revenue * 1000000;
         d.Market_Cap = +d.Market_Cap * 1000000;
