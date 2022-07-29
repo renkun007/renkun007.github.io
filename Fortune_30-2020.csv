@@ -1,0 +1,31 @@
+company,rank,rank_change,revenue,profit,employees_nums,sector,city,state,newcomer,ceo_founder,ceo_woman,profitable,prev_rank,CEO,Website,Ticker,Market_Cap
+Walmart,1,0,523964,14881,2200000,Retailing,Bentonville,AR,no,no,no,yes,1,C. Douglas McMillon,https://www.stock.walmart.com,WMT,411690
+Amazon,2,3,280522,11588,798000,Retailing,Seattle,WA,no,yes,no,yes,5,Jeffrey P. Bezos,https://www.amazon.com,AMZN,1637405
+Exxon Mobil,3,-1,264938,14340,74900,Energy,Irving,TX,no,no,no,yes,2,Darren W. Woods,https://www.exxonmobil.com,XOM,177923
+Apple,4,-1,260174,55256,137000,Technology,Cupertino,CA,no,no,no,yes,3,Timothy D. Cook,https://www.apple.com,AAPL,2221176
+CVS Health,5,3,256776,6634,290000,Health Care,Woonsocket,RI,no,no,yes,yes,8,Karen S. Lynch,https://www.cvshealth.com,CVS,98496
+Berkshire Hathaway,6,-2,254616,81417,391500,Financials,Omaha,NE,no,no,no,yes,4,Warren E. Buffett,https://www.berkshirehathaway.com,BRKA,550878
+UnitedHealth Group,7,-1,242155,13839,325000,Health Care,Minnetonka,MN,no,no,no,yes,6,Andrew P. Witty,https://www.unitedhealthgroup.com,UNH,332885
+McKesson,8,-1,214319,34,70000,Health Care,Irving,TX,no,no,no,yes,7,Brian S. Tyler,https://www.mckesson.com,MCK,29570
+AT&T,9,0,181193,13903,247800,Telecommunications,Dallas,TX,no,no,no,yes,9,John T. Stankey,https://www.att.com,T,206369
+AmerisourceBergen,10,0,179589.1,855.4,21500,Health Care,Chesterbrook,PA,no,no,no,yes,10,Steven H. Collis,https://www.amerisourcebergen.com,ABC,21246
+Alphabet,11,4,161857,34343,118899,Technology,Mountain View,CA,no,no,no,yes,15,Sundar Pichai,https://www.abc.xyz,GOOGL,1274139
+Ford Motor,12,0,155900,47,190000,Motor Vehicles & Parts,Dearborn,MI,no,no,no,yes,12,James D. Farley Jr.,https://www.ford.com,F,26297
+Cigna,13,52,153566,5104,73700,Health Care,Bloomfield,CT,no,no,no,yes,65,David Cordani,https://www.cigna.com,CI,60335
+Costco Wholesale,14,0,152703,3659,201500,Retailing,Issaquah,WA,no,no,no,yes,14,W. Craig Jelinek,https://www.costco.com,COST,160040
+Chevron,15,-4,146516,2924,48200,Energy,San Ramon,CA,no,no,no,yes,11,Michael K. Wirth,https://www.chevron.com,CVX,156714
+Cardinal Health,16,0,145534,1363,49500,Health Care,Dublin,OH,no,no,no,yes,16,Michael C. Kaufmann,https://www.cardinalhealth.com,CAH,16018
+JPMorgan Chase,17,1,142422,36431,256981,Financials,New York,NY,no,no,no,yes,18,James Dimon,https://www.jpmorganchase.com,JPM,414465
+General Motors,18,-5,137237,6732,164000,Motor Vehicles & Parts,Detroit,MI,no,no,yes,yes,13,Mary T. Barra,https://www.gm.com,GM,79953
+Walgreens Boots Alliance,19,-2,136866,3982,287000,Food & Drug Stores,Deerfield,IL,no,no,no,yes,17,Stefano Pessina,https://www.walgreensbootsalliance.com,WBA,41552
+Verizon Communications,20,-1,131868,19265,135000,Telecommunications,New York,NY,no,no,no,yes,19,Hans E. Vestberg,https://www.verizon.com,VZ,236948
+Microsoft,21,5,125843,39240,144000,Technology,Redmond,WA,no,no,no,yes,26,Satya Nadella,https://www.microsoft.com,MSFT,1696122
+Marathon Petroleum,22,9,124813,2637,60910,Energy,Findlay,OH,no,no,no,yes,31,Michael J. Hennigan,https://www.marathonpetroleum.com,MPC,24840
+Kroger,23,-3,122286,1659,435000,Food & Drug Stores,Cincinnati,OH,no,no,no,yes,20,W. Rodney McMullen,https://www.thekrogerco.com,KR,25178
+Fannie Mae,24,-2,120304,14160,7500,Financials,Washington,DC,no,no,no,yes,22,Hugh R. Frater,https://www.fanniemae.com,FNMA,11350
+Bank of America,25,0,113589,27430,208131,Financials,Charlotte,NC,no,no,no,yes,25,Brian T. Moynihan,https://www.bankofamerica.com,BAC,279768
+Home Depot,26,1,110225,11242,415700,Retailing,Atlanta,GA,no,no,no,yes,27,Craig A. Menear,https://www.homedepot.com,HD,295312
+Phillips 66,27,-4,109559,3076,14500,Energy,Houston,TX,no,no,no,yes,23,Greg C. Garland,https://www.phillips66.com,PSX,27084
+Comcast,28,4,108942,13057,190000,Telecommunications,Philadelphia,PA,no,no,no,yes,32,Brian L. Roberts,https://corporate.comcast.com,CMCSA,223642
+Anthem,29,4,104213,4807,70600,Health Care,Indianapolis,IN,no,no,yes,yes,33,Gail K. Boudreaux,https://www.antheminc.com,ANTM,79964
+Wells Fargo,30,-1,103915,19549,259800,Financials,San Francisco,CA,no,no,no,yes,29,Charles W. Scharf,https://www.wellsfargo.com,WFC,99941
