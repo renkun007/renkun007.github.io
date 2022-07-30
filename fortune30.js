@@ -99,6 +99,9 @@ const legend = g.selectAll()
 
 //function update bar based on selected variable
 function update(selectedVar) {
+    
+    d3.selectAll("rect")
+        .remove();
     //load csv
     const data = d3.csv("data.csv").then( function(data) { 
     data.forEach(d => {
