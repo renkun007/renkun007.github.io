@@ -61,7 +61,7 @@ text{
 }
 .annotation text{
     font-size: 15px;
-    fill: gray;
+    fill: steelblue;
 }
 .annotation path{
     stroke-dasharray: 5;
