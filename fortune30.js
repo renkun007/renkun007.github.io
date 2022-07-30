@@ -189,6 +189,11 @@ function update(selectedVar) {
             <b>Profits (USD): </b>${yAxisTickFormat(d.profit)}`
         )
             .style("opacity", 1);
+            
+            //hide current bar text
+            d3.selectAll("#bartextG")
+                .attr('opacity', 0);
+            
             d3.select(this).attr('class', 'highlight');
             d3.select(this)
             .transition()     // adds animation
@@ -249,6 +254,10 @@ function update(selectedVar) {
             .attr("y", function(d) { return yscale(yvalue(d)); })
             .attr("height", function(d) { return charheight - yscale(yvalue(d));
             });
+        
+        //display current bar text
+        d3.selectAll("#bartextG")
+            .attr('opacity', 1);
         g.selectAll("#dline").remove();
         g.selectAll(".difftext").remove();
       }
@@ -306,6 +315,26 @@ function update(selectedVar) {
         .attr("height", d => charheight - yscale(yvalue(d)));
         // .delay((d,i) => {console.log(i); return i*100});//add dealy to each bar
     
+         //clear bar text
+    g.selectAll("#bartextG")
+        .remove();
+
+
+    //append text to bars
+    g.selectAll()
+        .data(data)
+        .enter()
+        .append("g")
+        .attr("id","bartextG")
+        .append("text")
+        // .transition()
+        // .duration(1000)
+        .attr("class","value")
+        .attr("x",d => xscale(xvalue(d)) + xscale.bandwidth() / 2)
+        .attr("y",d => yscale(yvalue(d)) -5)
+        .attr("text-anchor", "middle")
+        .text(d =>yAxisTickFormat(yvalue(d))); 
+        
     //annotation
     const annotations = [
         {
